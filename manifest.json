@@ -1,0 +1,12 @@
+{
+  "name": "Emojifier",
+  "version": "1.0",
+  "description": "Emojify your life! 😁",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["./emojinator.js"]
+    }
+  ],
+  "manifest_version": 2
+}
